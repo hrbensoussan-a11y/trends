@@ -19,7 +19,7 @@ export function Hero() {
     <section className="relative overflow-hidden bg-cream" aria-label="TRENDS — Tech, mode & lifestyle">
       <Container bleed>
         {/* STAGE: wordmark + model */}
-        <div className="relative mx-auto h-[clamp(360px,52vw,660px)] w-full">
+        <div className="relative mx-auto h-[clamp(300px,52vw,660px)] w-full">
           {/* Oversized wordmark (behind the model) */}
           <h1 className="pointer-events-none absolute inset-x-0 top-[6%] z-0 m-0 flex justify-center">
             <span className="sr-only">TRENDS — {site.tagline}</span>
